@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  .App__main {
+  }
+}
+.noScroll {
+  @media (max-width: 769px) {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+}

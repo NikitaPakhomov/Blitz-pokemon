@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(61, 139, 255);
+    width: 100%;
+    color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    .header__nav {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        @media (max-width: 768px) {
+            width: 50%;
+            height: 100%;
+        }
+        @media (max-width: 396px) {
+            width: 60%;
+        }
+    }
+    .header__a {
+        align-self: center;
+        text-decoration: none;
+        color: rgb(0, 0, 255);
+        @media (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+            height: 80%;
+        }
+    }
+    .active {
+        border-bottom: 2px solid rgb(0, 0, 255);
+    }
+}
